@@ -1,8 +1,6 @@
 import React, { useState } from 'react'
 import axios from 'axios'
-// import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
-//jses6lint
 
 
 function FetchNews() {
