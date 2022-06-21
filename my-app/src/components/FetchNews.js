@@ -10,7 +10,7 @@ function FetchNews() {
   const [news , setNews] = useState([])
 
   const fetchnews = () => {
-   axios.get("https://newsapi.org/v2/top-headlines?country=in&apiKey=156b1f9c76bf4901b17c17253159d3a5")
+   axios.get("https://newsapi.org/v2/top-headlines?country=in&apiKey={enter your api key}")
    .then((response) =>{
     // console.log(response)
     setNews(response.data.articles)
